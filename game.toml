@@ -1,0 +1,51 @@
+# Autofilled by tools/new_project_layout/probe_disc.py from your legal dump.
+# Review before shipping. Runtime quirks / overlay seeds still need hand work.
+
+[game]
+name = "Legend of Mana"
+id = "SLUS-01013"
+players = 2
+exe = "disc/SLUS_010.13"
+disc = "disc/Legend of Mana (USA).cue"
+load_address = "0x80010000"
+entry_pc = "0x8002E7A8"
+text_size = "0x0002F000"
+stack_base = "0x801FFFF0"
+
+# Digests are for data Track 01 (first BINARY FILE / TRACK 01).
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Legend of Mana (USA).bin"
+cue_name = "Legend of Mana (USA).cue"
+boot_exe = "SLUS_010.13"
+known_sizes = [677406576]
+known_md5 = [
+  "5907187b16be1c656e029e79f3a67274",
+]
+known_sha1 = [
+  "c1b536c99f0d390584eb30462a7e37f2bbef3902",
+]
+
+[recompiler]
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Legend of Mana Recompiled"
+memcard_dir = "saves"
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+allow_hybrid = false
+
+# Online mount gate: digests + track count + optional TOC fingerprint
+# (see docs/NETPLAY.md).
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "5f72e551422f2bc924dd2731d67d7a8e057d84a535c9022d3a6faef3a0b3fa2c"

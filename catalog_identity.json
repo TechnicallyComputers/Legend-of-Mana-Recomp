@@ -1,0 +1,47 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Legend of Mana",
+    "id": "SLUS-01013",
+    "boot_exe": "SLUS_010.13"
+  },
+  "marketing": {
+    "description": "While incorporating action role-playing game elements from the three games which preceded it, Legend of Mana has its own distinct style of gameplay. Most notably, it gives the player the ability to shape the game's world of Fa'Diel according to his or her desires, a system which was incorporated through the use of \"artifacts,\" which are gained as the player progresses through the game. The player uses the artifacts to create different towns, dungeons, etc., called \"Lands\", to venture to and explore. This creates a non-linear gameplay, since the game is driven by a series of what would be considered side-quests in other games. Legend of Mana features three different plots which can occur simultaneously, and which do not necessarily need to be completed for the player to finish the game. Legend of Mana was a financial success in Japan. While the game garnered considerable praise for its graphics and presentation, many critics and fans were turned off by the game's lack of a main storyline.",
+    "publisher": "Square Enix",
+    "year": "1999",
+    "region": "USA",
+    "players": 2
+  },
+  "rom_identity": {
+    "cue_name": "Legend of Mana (USA).cue",
+    "bin_name": "Legend of Mana (USA).bin",
+    "track_counts": [
+      1
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 677406576,
+      "md5": "5907187b16be1c656e029e79f3a67274",
+      "sha1": "c1b536c99f0d390584eb30462a7e37f2bbef3902"
+    },
+    "disc_fp": "5f72e551422f2bc924dd2731d67d7a8e057d84a535c9022d3a6faef3a0b3fa2c"
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x8002E7A8",
+    "text_size": "0x0002F000",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 395,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
