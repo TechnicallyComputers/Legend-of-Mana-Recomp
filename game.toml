@@ -2,7 +2,7 @@
 # Review before shipping. Runtime quirks / overlay seeds still need hand work.
 
 [game]
-name = "Legend of Mana"
+name = "Legend of Mana Recomp"
 id = "SLUS-01013"
 players = 2
 exe = "disc/SLUS_010.13"
@@ -25,6 +25,9 @@ known_md5 = [
 known_sha1 = [
   "c1b536c99f0d390584eb30462a7e37f2bbef3902",
 ]
+known_crc32 = [
+  "5028946f",
+]
 
 [recompiler]
 seeds = "seeds/ghidra_funcs.txt"
@@ -32,7 +35,7 @@ out_dir = "generated"
 strict = true
 
 [runtime]
-window_title = "Legend of Mana Recompiled"
+window_title = "Legend of Mana Recomp Recompiled"
 memcard_dir = "saves"
 
 [video]
@@ -40,13 +43,10 @@ renderer = "opengl"
 aspect_ratio = "4:3"
 
 [controller]
-default_mode = "analog"
-lock_mode = true
-allow_hybrid = false
+default_mode = "digital"
 
 # Online mount gate: digests + track count + optional TOC fingerprint
 # (see docs/NETPLAY.md).
-multitap_analog = false
 [netplay]
 require_cue = true
 required_tracks = 1
