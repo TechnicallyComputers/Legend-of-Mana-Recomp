@@ -1,0 +1,75 @@
+{
+ "kind": "psx-gpu-frame-summary",
+ "version": 1,
+ "label": "bad",
+ "frame": 3026,
+ "dump": "bad.json",
+ "packets": 1055,
+ "drawing": 1044,
+ "capped": false,
+ "truncated": 0,
+ "area": [
+  8,
+  248,
+  320,
+  472
+ ],
+ "ops": {
+  "draw_area_tl(E3)": 1,
+  "draw_area_br(E4)": 1,
+  "draw_offset(E5)": 1,
+  "draw_mode(E1)": 1,
+  "tex_window(E2)": 1,
+  "mask_bit(E6)": 1,
+  "PolyFT4": 584,
+  "PolyFT3": 4,
+  "PolyF4+semi": 184,
+  "PolyG3+semi": 208,
+  "PolyG4+semi": 64,
+  "copy_vram_vram": 1,
+  "nop": 4
+ },
+ "modes": {
+  "B-F": 360,
+  "B+F": 96
+ },
+ "funcs": [
+  {
+   "func": "0x00000F40",
+   "packets": 1055,
+   "drawing": 1044,
+   "semi": 456,
+   "textured": 588,
+   "ops": {
+    "draw_area_tl(E3)": 1,
+    "draw_area_br(E4)": 1,
+    "draw_offset(E5)": 1,
+    "draw_mode(E1)": 1,
+    "tex_window(E2)": 1,
+    "mask_bit(E6)": 1,
+    "PolyFT4": 584,
+    "PolyFT3": 4,
+    "PolyF4+semi": 184,
+    "PolyG3+semi": 208,
+    "PolyG4+semi": 64,
+    "copy_vram_vram": 1,
+    "nop": 4
+   },
+   "stp_modes": {
+    "B-F": 360,
+    "B+F": 96
+   },
+   "ot_min": 1,
+   "ot_max": 174,
+   "ras": [
+    "0x8001B62C"
+   ],
+   "bbox": [
+    -281,
+    68,
+    459,
+    667
+   ]
+  }
+ ]
+}

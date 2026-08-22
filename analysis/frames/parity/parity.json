@@ -1,0 +1,51 @@
+{
+ "kind": "psx-gpu-parity",
+ "version": 1,
+ "frame": null,
+ "target_frame": 0,
+ "duckstation_drive_error": "run_to_frame: target frame already passed",
+ "native_frame": 0,
+ "duckstation_frame": 3266,
+ "frame_mismatch": true,
+ "native_image": "/home/alex/Documents/GitHub/Legend of Mana Recomp/analysis/frames/parity/native.png",
+ "duckstation_image": "/home/alex/Documents/GitHub/Legend of Mana Recomp/analysis/frames/parity/duckstation.png",
+ "gpu_state": {
+  "display_area_x": {
+   "native": null,
+   "duckstation": 1
+  },
+  "display_area_y": {
+   "native": null,
+   "duckstation": 248
+  },
+  "disp_w": {
+   "native": null,
+   "duckstation": 319
+  },
+  "disp_h": {
+   "native": null,
+   "duckstation": 224
+  },
+  "display_enable": {
+   "native": null,
+   "duckstation": 0
+  }
+ },
+ "image": {
+  "width": 319,
+  "height": 224,
+  "differing_pixels": 65509,
+  "total_pixels": 71456,
+  "differing_pct": 91.6774,
+  "max_channel_delta": 248,
+  "mean_abs_delta": 38.8434,
+  "diff_bbox": [
+   7,
+   1,
+   318,
+   223
+  ],
+  "note": "size mismatch: (320, 240) vs (319, 224); compared over the common region",
+  "diff_image": "/home/alex/Documents/GitHub/Legend of Mana Recomp/analysis/frames/parity/diff.png"
+ }
+}

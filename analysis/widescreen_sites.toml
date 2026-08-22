@@ -14,5 +14,5 @@ auto_screen_x = true   # 2 function(s) carry the screen-extent signature
 # weighted toward GTE code and the console's real display modes.
 # Verify before trusting — extra entries only widen what auto_screen_x
 # considers, but a wrong one widens the wrong compare.
-screen_w_imms = ["0x101", "0x102", "0x103"]
+screen_w_imms = ["0x100", "0x101", "0x102", "0x103"]
 screen_h_imms = ["0x121"]

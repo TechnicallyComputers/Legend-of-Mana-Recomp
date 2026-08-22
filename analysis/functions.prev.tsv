@@ -476,7 +476,7 @@ addr	size	name	confidence	args	ret	callers	callees	frame	saved	tags
 0x800236EC	48	func_800236EC	high	0	u32	5	0	0		leaf
 0x8002371C	80	func_8002371C	verified	2	u32	1	2	32	s0|s1|ra	
 0x8002376C	196	func_8002376C	verified	4	u32	2	5	40	s0|s1|s2|s3|s4|ra	
-0x80023830	672	func_80023830	verified	0	u32	1	2	24	ra	
+0x80023830	672	func_80023830	verified	0	u32	1	2	24	ra	mmio
 0x80023AD0	232	func_80023AD0	verified	0	void	1	13	32	s0|s1|ra	
 0x80023BB8	40	func_80023BB8	low	1	void	1	0	0		leaf|orphan
 0x80023BE0	160	func_80023BE0	medium	0	u32	1	8	24	ra	orphan
@@ -498,11 +498,11 @@ addr	size	name	confidence	args	ret	callers	callees	frame	saved	tags
 0x800241A0	92	func_800241A0	verified	2	u32	7	1	24	s0|ra	
 0x80024200	48	func_80024200	high	1	u32	4	0	0		leaf
 0x80024230	36	func_80024230	high	1	u32	9	0	0		leaf
-0x80024260	28	func_80024260	high	1	void	5	0	0		leaf
-0x8002427C	28	func_8002427C	high	1	void	7	0	0		leaf
-0x80024298	28	func_80024298	low	1	void	1	0	0		leaf|orphan
-0x800242B4	28	func_800242B4	low	1	void	1	0	0		leaf|orphan
-0x800242D0	28	func_800242D0	low	1	void	1	0	0		leaf|orphan
+0x80024260	28	func_80024260	high	1	void	5	0	0		leaf|mmio
+0x8002427C	28	func_8002427C	high	1	void	7	0	0		leaf|mmio
+0x80024298	28	func_80024298	low	1	void	1	0	0		leaf|mmio|orphan
+0x800242B4	28	func_800242B4	low	1	void	1	0	0		leaf|mmio|orphan
+0x800242D0	28	func_800242D0	low	1	void	1	0	0		leaf|mmio|orphan
 0x800242EC	72	func_800242EC	high	4	u32	7	0	0		leaf
 0x80024334	24	func_80024334	high	2	u32	6	0	0		leaf
 0x8002434C	28	func_8002434C	high	2	u32	2	0	0		leaf
@@ -607,7 +607,7 @@ addr	size	name	confidence	args	ret	callers	callees	frame	saved	tags
 0x8002982C	404	func_8002982C	verified	1	u32	1	3	56	s0|s1|s2|s3|s4|s5|ra	
 0x800299CC	16	bios_B0_0A_WaitEvent	verified	0	void	1	0	0		bios|leaf
 0x800299DC	16	func_800299DC	high	1	u32	1	0	0		leaf
-0x800299EC	32	func_800299EC	high	0	u32	2	0	0		leaf
+0x800299EC	32	func_800299EC	high	0	u32	2	0	0		leaf|mmio
 0x80029A0C	128	func_80029A0C	high	3	u32	6	0	0		leaf
 0x80029A8C	32	func_80029A8C	low	0	u32	1	0	0		leaf|orphan
 0x80029AAC	988	func_80029AAC	low	0	u32	0	3	0	s0|s1|s2|ra	orphan
@@ -899,6 +899,6 @@ addr	size	name	confidence	args	ret	callers	callees	frame	saved	tags
 0x80034F44	20	func_80034F44	medium	0	u32	2	1	0		addr_taken|orphan
 0x80034F58	56	func_80034F58	low	0	u32	2	1	0		leaf|orphan
 0x80034F90	8	func_80034F90	low	0	u32	0	0	0		leaf|orphan
-0x80034F98	312	func_80034F98	high	0	u32	2	0	0		leaf|addr_taken
+0x80034F98	312	func_80034F98	high	0	u32	2	0	0		leaf|mmio|addr_taken
 0x800350D0	112	func_800350D0	low	2	u32	0	0	0		leaf|orphan|indirect
 0x80035140	76	func_80035140	low	2	u32	0	0	0		leaf|orphan

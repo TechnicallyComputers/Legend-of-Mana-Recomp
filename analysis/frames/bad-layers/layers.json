@@ -1,0 +1,60 @@
+{
+ "kind": "psx-gpu-layers",
+ "version": 1,
+ "frame": 3026,
+ "label": "bad",
+ "area": [
+  8,
+  248,
+  320,
+  472
+ ],
+ "scale": 1,
+ "order": "issue",
+ "tex_tint": false,
+ "layer_backdrop": 128.0,
+ "composite": "composite.png",
+ "sheet": "sheet.png",
+ "rendered": 1044,
+ "non_drawing": 11,
+ "layers": [
+  {
+   "func": "0x00000F40",
+   "file": "layer-0x00000F40.png",
+   "prims": 1044,
+   "semi": 456,
+   "textured": 588,
+   "pixels": 69888,
+   "bbox": [
+    -281,
+    68,
+    459,
+    667
+   ],
+   "ot_min": 1,
+   "ot_max": 174,
+   "ops": {
+    "draw_area_tl(E3)": 1,
+    "draw_area_br(E4)": 1,
+    "draw_offset(E5)": 1,
+    "draw_mode(E1)": 1,
+    "tex_window(E2)": 1,
+    "mask_bit(E6)": 1,
+    "PolyFT4": 584,
+    "PolyFT3": 4,
+    "PolyF4+semi": 184,
+    "PolyG3+semi": 208,
+    "PolyG4+semi": 64,
+    "copy_vram_vram": 1,
+    "nop": 4
+   },
+   "stp_modes": {
+    "B-F": 360,
+    "B+F": 96
+   },
+   "ras": [
+    "0x8001B62C"
+   ]
+  }
+ ]
+}
