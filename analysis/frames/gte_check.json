@@ -1,0 +1,256 @@
+{
+ "kind": "psx-gte-check",
+ "version": 1,
+ "what": "intpl",
+ "intpl_checked": 0,
+ "intpl_bad": 0,
+ "verdict": "not-used",
+ "note": "no INTPL records \u2014 this game does not use INTPL at all. The colour path is therefore NCDS/NCCS or a plain CPU write, not depth-cue interpolation.",
+ "intpl_modes": [],
+ "bad": [],
+ "frames": [
+  {
+   "frame": 10587,
+   "nproj": 787,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10585,
+   "nproj": 787,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10583,
+   "nproj": 786,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10581,
+   "nproj": 786,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10579,
+   "nproj": 786,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10577,
+   "nproj": 786,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10575,
+   "nproj": 785,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10573,
+   "nproj": 785,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10571,
+   "nproj": 785,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10569,
+   "nproj": 785,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10567,
+   "nproj": 785,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10565,
+   "nproj": 785,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10563,
+   "nproj": 785,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10561,
+   "nproj": 785,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10559,
+   "nproj": 785,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10557,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10555,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10553,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10551,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10549,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10547,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10545,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10543,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10541,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10539,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10537,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10535,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10533,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10531,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  },
+  {
+   "frame": 10529,
+   "nproj": 625,
+   "nsat": 0,
+   "nflat": 207,
+   "nintpl": 0,
+   "nintpl_tiny": 0
+  }
+ ],
+ "nintpl_total": 0,
+ "nsat_total": 0,
+ "nproj_last": 787
+}

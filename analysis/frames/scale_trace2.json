@@ -1,0 +1,40 @@
+{
+ "kind": "psx-scale-trace",
+ "version": 1,
+ "pc": "0x8006844C",
+ "reg": "s6",
+ "native": {
+  "samples": 4,
+  "distinct": 4,
+  "min": 72,
+  "max": 78,
+  "values": [
+   72,
+   74,
+   76,
+   78
+  ],
+  "constant": false,
+  "neutral_only": false,
+  "median_step": 2,
+  "max_step": 2
+ },
+ "oracle": {
+  "samples": 4,
+  "distinct": 4,
+  "min": 12,
+  "max": 24,
+  "values": [
+   12,
+   16,
+   20,
+   24
+  ],
+  "constant": false,
+  "neutral_only": false,
+  "median_step": 4,
+  "max_step": 4
+ },
+ "verdict": "both-animate",
+ "granularity": "too-few-samples"
+}

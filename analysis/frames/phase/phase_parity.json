@@ -1,0 +1,48 @@
+{
+ "kind": "psx-phase-parity",
+ "version": 1,
+ "pc": "0x8006844C",
+ "reg": "s6",
+ "target_phase": 128,
+ "native_phase": 128,
+ "native_phases_seen": [
+  4,
+  8,
+  12,
+  32,
+  36,
+  40,
+  44,
+  64,
+  68,
+  72,
+  76,
+  128
+ ],
+ "origin_native": [
+  0,
+  240
+ ],
+ "origin_oracle": [
+  1,
+  248
+ ],
+ "image": {
+  "width": 319,
+  "height": 224,
+  "differing_pixels": 47376,
+  "total_pixels": 71456,
+  "differing_pct": 66.3009,
+  "max_channel_delta": 248,
+  "mean_abs_delta": 13.5504,
+  "diff_bbox": [
+   7,
+   0,
+   318,
+   223
+  ],
+  "note": "aligned by VRAM origin: the oracle's framebuffer sits +1,+8 from psx-runtime's",
+  "diff_image": "/home/alex/Documents/GitHub/Legend of Mana Recomp/analysis/frames/phase/diff.png"
+ },
+ "verdict": "images-differ"
+}
