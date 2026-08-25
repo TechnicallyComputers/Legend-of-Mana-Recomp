@@ -73,3 +73,8 @@ starvation_dump.jsonl
 /*.png
 !/catalog_identity.json
 !/disc_probe.json
+
+# Analysis dumps: frame captures, GP0 packet dumps, parity/diff images, tool
+# reports. All regenerable by psxrecomp/tools and large (a single frame dump
+# is ~1.5 MB), so they are kept local rather than pushed.
+/analysis/
