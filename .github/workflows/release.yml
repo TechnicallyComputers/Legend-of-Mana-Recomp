@@ -536,7 +536,7 @@ jobs:
           name: legendofmana-${{ matrix.artifact }}
           path: dist/legendofmana-*-${{ matrix.artifact }}.zip
           if-no-files-found: error
-          retention-days: 30
+          retention-days: 5
 
   release:
     name: GitHub Release
